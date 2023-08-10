@@ -1,0 +1,34 @@
+{
+  "name": "first-init-pub",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BettyYinYin/npmPublish.git"
+  },
+  "keywords": [],
+  "author": "betty_yin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BettyYinYin/npmPublish/issues"
+  },
+  "homepage": "https://github.com/BettyYinYin/npmPublish#readme",
+  "devDependencies": {
+    "git-cz": "^4.9.0",
+    "jest": "^28.1.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.77.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "omit.js": "^2.0.2"
+  }
+}
